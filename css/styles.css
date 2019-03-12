@@ -1,3 +1,17 @@
-h1 {
-  color: blue;
-  }
+#fry_egg {
+    color: blue;
+    background-color: yellow;
+    padding: 25px 50px 75px 100px;
+}
+
+#make_tea {
+    color: pink;
+    background-color: blue;
+    padding: 25px 50px 75px 100px;
+}
+
+#roast_chicken {
+      color: blue;
+      background-color: yellow;
+      padding: 25px 50px 75px 100px;
+    }
