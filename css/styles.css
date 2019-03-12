@@ -1,22 +1,19 @@
 
-h1 {
-  color: blue;
-  font-size: 50px;
-  font-family: helvetica;
-
-  }
-
-  html {
-        text-align: center;
-        background: url(http://www.lovejframe.com/uploads/3/0/9/8/30981033/s906654426785960500_p121_i23_w596.png);
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-
-        background-size: contain;
-        background-position: center;
-        background-repeat:no-repeat;
-
-        color: yellow;
-        font-family: helvetica;
+      h1 {
+        color: #00CED1;
+        font-size: 50px;
       }
+
+        body {
+              text-align: center;
+              background-size: cover;
+              background:url("http://www.lovejframe.com/uploads/3/0/9/8/30981033/s906654426785960500_p121_i23_w596.png");
+              background-size: contain;
+              background-position: center;
+              background-repeat: no-repeat;
+              -webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover;
+              color: yellow;
+              font-family: helvetica;
+            }
