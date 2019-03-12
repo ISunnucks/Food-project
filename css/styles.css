@@ -6,12 +6,17 @@ h1 {
 
   }
 
-  body {
+  html {
         text-align: center;
-        background-image: url(2aec1c03c4fb6afedb0f1d9da362b64a.jpg);
+        background: url(http://www.lovejframe.com/uploads/3/0/9/8/30981033/s906654426785960500_p121_i23_w596.png);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+
         background-size: contain;
         background-position: center;
         background-repeat:no-repeat;
-        color: pink;
+
+        color: yellow;
         font-family: helvetica;
       }
