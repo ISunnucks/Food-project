@@ -1,13 +1,15 @@
+
 h1 {
-  color: orange;
-  font-size: 75px;
+  color: blue;
+  font-size: 50px;
+
   }
 
   body {
         text-align: center;
-        background:url("https://data.whicdn.com/images/122064004/large.jpg");
-        background-size: cover;
+        background:url("https://i.pinimg.com/564x/2a/ec/1c/2aec1c03c4fb6afedb0f1d9da362b64a.jpg");
+        background-size: containr;
         background-position: center;
-        color: pink; 
+        color: pink;
         font-family: helvetica;
       }
