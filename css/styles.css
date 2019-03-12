@@ -8,7 +8,7 @@ h1 {
   body {
         text-align: center;
         background:url("https://i.pinimg.com/564x/2a/ec/1c/2aec1c03c4fb6afedb0f1d9da362b64a.jpg");
-        background-size: containr;
+        background-size: contain;
         background-position: center;
         color: pink;
         font-family: helvetica;
