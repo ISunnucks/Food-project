@@ -1,0 +1,7 @@
+h1 {background-color: red;
+  text-align: center;
+}
+#panel, #flip{padding: 5px; font-size: 18px; text-align: center;
+background-color: red; color: white; border: solid 1px #666;
+border-radius: 3px; }
+#panel {padding: 50px; display: 3px; }
