@@ -1,7 +1,9 @@
 h1 {background-color: red;
+  color: white;
   text-align: center;
+  font-family: fantasy;
 }
-#panel, #flip{padding: 5px; font-size: 18px; text-align: center;
-background-color: red; color: white; border: solid 1px #666;
+#panel, #flip {padding: 5px; font-size: 18px; text-align: center;
+background-color: #e5eecc; color: white; border: solid 1px #c3c3c3;
 border-radius: 3px; }
 #panel {padding: 50px; display: 3px; }
