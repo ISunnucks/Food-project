@@ -3,19 +3,24 @@ h1 {background-color: red;
   text-align: center;
   font-family: fantasy;
 }
-/* You can write comments to yourself like this*/
 
-#panel, #flip {padding: 5px; font-size: 18px; text-align: center;
-background-color: #e5eecc; color: white; border: solid 1px #c3c3c3;
-border-radius: 3px; }
-#panel {padding: 50px; display: 3px; }
+img {border-radius: 8px;}
 
-
-.pad_thai {
-  padding-: 20px; font-family: fantasy;
+.container1 {position: relative; width: 50%;
 }
 
-.food_image{
-  max-width: 40%;
-  height: 40%;
+.overlay {position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #ff944d;
+  overflow: hidden;
+  width: 50%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container1:hover .overlay {
+  bottom: 0;
+  height: 100%;
 }
