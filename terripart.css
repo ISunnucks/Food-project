@@ -3,9 +3,8 @@ h1 {background-color: red;
   text-align: center;
   font-family: fantasy;
 }
-
+/*
 img {border-radius: 8px;}
-
 .container1 {position: relative; width: 50%;
 }
 
@@ -23,4 +22,30 @@ img {border-radius: 8px;}
 .container1:hover .overlay {
   bottom: 0;
   height: 100%;
+}
+.green_curry {   padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+} */
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }
