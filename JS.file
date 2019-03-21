@@ -1,0 +1,31 @@
+<!DOCTYPE html>​
+
+<html>​
+
+
+  <link href='css/bootstrap.css' rel='stylesheet'>​
+
+  <link href='css/style.css' rel='stylesheet'>​
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">​
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>​
+
+
+<script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <script src="js/bootstrap.min.js"></script>​
+
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
