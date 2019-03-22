@@ -4,12 +4,13 @@ body {
   /* height: 100px; */
   margin:0;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lemon';
 }
 
 
  .header {
-   padding: 80px;
+   font-family: 'Lemon';
+   padding: 40px;
   text-align: center;
   background: #1abc9c;
   color: white;
@@ -27,11 +28,12 @@ header.p {
 }
 
 .topnav a {
-  float: left;
+  font-family: 'lemon';
   display: block;
-  padding: 14px 20px;
+  padding: 20px 35px;
+  display: inline-block;
   text-align: center;
-  padding: 14px 16px;
+  padding: 18px 20px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -74,13 +76,84 @@ header.p {
 
  h2 {
    color: #1abc9c;
-   font-size: 20px;
+   font-size: 30px;
  }
+
+ .bird {
+   background-image: url('bird.svg');
+   width: 88px;
+   height: 125px;
+ }
+
+ @keyframes fly-cycle {
+   100% {
+   background-position: -900px 0;
+   }
+ }
+
+ .animation-name: fly-cycle;
+ .animation-timing-function: steps(10);
+ .animation-iteration-count: infinite;
+ .animation-duration: 1s;
+ .animation-delay: -0.5s;
+
+ .bird--one {
+   animation-duration: 1s;
+   animation-delay: -0.5s;
+ }
+ .bird--two {
+   animation-duration: 0.9s;
+   animation-delay: -0.75s;
+ }
+
+
+
+
 
 .bg {
   height: 500px;
-  background-image: url("../image/world.jpg");
+  background-image:url("../image/world-magic.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.button {
+  border-radius: 4px;
+  background-color:#FF1ABC;
+  font-family: 'Lemon';
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
