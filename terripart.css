@@ -17,12 +17,14 @@ p.double {font-family: fantasy;
   outline-style: double;
 }
 
-p2 {font-family: fantasy;
-text-align: right;
+p2.double {font-family: fantasy;
+text-align: left;
+outline-style: double;
 }
 
-p3 {font-family: fantasy;
+p3.double {font-family: fantasy;
 text-align: left;
+outline-style: double;
 }
 
 .text {font-family: fantasy; }
