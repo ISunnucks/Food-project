@@ -22,12 +22,14 @@ p2.double {font-family: fantasy;
 text-align: left;
 outline-style: double;
 outline-color:rgb(255, 105, 180);
+margin-top: 30px;
 }
 
 p3.double {font-family: fantasy;
 text-align: left;
 outline-style: double;
 outline-color:rgb(255, 105, 180);
+margin-top: 30px;
 }
 
 .text {font-family: fantasy; }
