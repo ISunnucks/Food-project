@@ -1,0 +1,88 @@
+h1 {background-color: rgb(255, 105, 180);
+  color: white;
+  text-align: center;
+  font-family: fantasy;
+}
+
+img {border-radius: 8px; margin: 10px; }
+
+h2, h3 {background-color: rgb(255, 105, 180);
+color: white;
+text-align: center;
+font-family: fantasy;
+}
+
+p.double {font-family: fantasy;
+  text-align: left;
+  outline-style: double;
+}
+
+p2 {font-family: fantasy;
+text-align: right;
+}
+
+p3 {font-family: fantasy;
+text-align: left;
+}
+
+.text {font-family: fantasy; }
+
+.container1 {position: relative; width: 50%;
+}
+
+.overlay {position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #ff944d;
+  overflow: hidden;
+  width: 50%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container1:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+
+.container2 {position: relative; width: 50%;
+  float: right;
+}
+
+.overlay2 {position: absolute;
+bottom: 100%
+left:0;
+right: 0;
+background: #ff944d;
+overflow: hidden;
+width: 50%;
+height: 0;
+transition: .5s ease;
+}
+
+.container2:hover .overlay2 {
+ bottom: 0;
+ height: 100%;
+}
+
+.container3 {position: relative; width: 50%;
+}
+
+.overlay3 {position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #ff944d;
+  overflow: hidden;
+  width: 50%;
+  height: 0;
+  transition: .5s ease;
+}
+
+
+.container3:hover .overlay3 {
+  bottom: 0;
+  height: 100%;
+}
