@@ -6,6 +6,12 @@ h1 {background-color: rgb(255, 105, 180);
 
 img {border-radius: 8px; margin: 10px; }
 
+h2, h3 {background-color: rgb(255, 105, 180);
+color: white;
+text-align: center;
+font-family: fantasy;
+}
+
 
 .text {font-family: fantasy; }
 
