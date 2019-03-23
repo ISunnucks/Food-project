@@ -6,6 +6,9 @@ h1 {background-color: rgb(255, 105, 180);
 
 img {border-radius: 8px; margin: 10px; }
 
+
+.text {font-family: fantasy; }
+
 .container1 {position: relative; width: 50%;
 }
 
@@ -16,7 +19,7 @@ img {border-radius: 8px; margin: 10px; }
   background-color: #ff944d;
   overflow: hidden;
   width: 50%;
-  height:0;
+  height: 0;
   transition: .5s ease;
 }
 
@@ -25,9 +28,23 @@ img {border-radius: 8px; margin: 10px; }
   height: 100%;
 }
 
-div.gallery {
-  margin: 20px;
-  float: left;
-  width: 180px;
-  padding: 45px;
+
+.container2 {position: relative; width: 50%;
+  float: right;
+}
+
+.overlay2 {position: absolute;
+bottom: 100%
+left:0;
+right: 0;
+background: #ff944d;
+overflow: hidden;
+width: 50%;
+height: 0;
+transition: .5s ease;
+}
+
+.container2:hover .overlay2 {
+ bottom: 0;
+ height: 100%;
 }
