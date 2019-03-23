@@ -1,17 +1,43 @@
-#fry_egg {
-    color: blue;
-    background-color: yellow;
-    padding: 25px 50px 75px 100px;
+
+* {
+	font-family: fantasy;
+  font-size: 105%;
+  color: white;
 }
 
-#make_tea {
-    color: pink;
-    background-color: blue;
-    padding: 25px 50px 75px 100px;
+.btn-info {
+  color: white;
+  font-size: 125%;
+  background-color: transparent;
+  border: transparent;
+  position: relative;
+  left: 20px;
 }
 
-#roast_chicken {
-      color: blue;
-      background-color: yellow;
-      padding: 25px 50px 75px 100px;
+#Thai {
+    background-color: rgb(255, 105, 180);
+    padding: 25px 50px 50px 100px;
+    text-align: left;
+    border-style: solid;
+    border-color: rgb(173,216,230);
+    border-width: thick;
+  }
+
+
+#Italian {
+    background-color: rgb(255,150,90);
+    padding: 25px 50px 50px 100px;
+    text-align: left;
+    border-style: solid;
+    border-color: rgb(173,216,230);
+    border-width: thick;
+}
+
+#Moroccan {
+      background-color: rgb(255, 105, 180);
+      padding: 25px 50px 50px 100px;
+      text-align: left;
+      border-style: solid;
+      border-color: rgb(173,216,230);
+      border-width: thick;
     }
