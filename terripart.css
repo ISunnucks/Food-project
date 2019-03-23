@@ -54,3 +54,23 @@ transition: .5s ease;
  bottom: 0;
  height: 100%;
 }
+
+.container3 {position: relative; width: 50%;
+}
+
+.overlay3 {position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #ff944d;
+  overflow: hidden;
+  width: 50%;
+  height: 0;
+  transition: .5s ease;
+}
+
+
+.container3:hover .overlay3 {
+  bottom: 0;
+  height: 100%;
+}
