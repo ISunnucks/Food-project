@@ -15,14 +15,22 @@ font-family: fantasy;
 p.double {font-family: fantasy;
   text-align: left;
   outline-style: double;
+  outline-color: rgb(255, 105, 180);
+  margin-top: 50px;
 }
 
 p2 {font-family: fantasy;
 text-align: right;
+outline-style: double;
+outline-color: rgb(255, 105, 180);
+margin-top: 50px;
 }
 
 p3 {font-family: fantasy;
 text-align: left;
+outline-style: double;
+outline-color: rgb(255, 105, 180);
+margin-top: 50px;
 }
 
 .text {font-family: fantasy; }
