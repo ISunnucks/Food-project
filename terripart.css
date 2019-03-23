@@ -5,8 +5,8 @@ h1 {background-color: rgb(255, 105, 180);
 }
 
 img {border-radius: 8px;}
-/*.container1 {position: relative; width: 50%;
-} */
+.container1 {position: relative; width: 50%;
+}
 
 .overlay {position: absolute;
   bottom: 100%;
