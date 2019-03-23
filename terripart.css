@@ -4,7 +4,8 @@ h1 {background-color: rgb(255, 105, 180);
   font-family: fantasy;
 }
 
-img {border-radius: 8px;}
+img {border-radius: 8px; margin: 10px; }
+
 .container1 {position: relative; width: 50%;
 }
 
@@ -22,4 +23,11 @@ img {border-radius: 8px;}
 .container1:hover .overlay {
   bottom: 0;
   height: 100%;
+}
+
+div.gallery {
+  margin: 20px;
+  float: left;
+  width: 180px;
+  padding: 45px;
 }
