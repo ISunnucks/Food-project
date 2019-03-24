@@ -1,38 +1,51 @@
-h1 {background-color: rgb(255, 105, 180);
+
+.h1 {background-color: rgb(255, 105, 180);
   color: white;
   text-align: center;
   font-family: fantasy;
 }
 
-img {border-radius: 8px; margin: 10px; }
+img {
+  border-radius: 8px;
+   margin: 10px;
+ }
 
-h2, h3 {background-color: rgb(255, 105, 180);
+
+h3 {
+  background-color: rgb(255, 105, 180);
 color: white;
 text-align: center;
 font-family: fantasy;
 }
 
-p.double {font-family: fantasy;
+#Recipe1 {
+  font-family: fantasy;
   text-align: left;
-  outline-style: double;
   outline-color: rgb(255, 105, 180);
   margin-top: 50px;
+  background-color: rgb(255, 105, 180);
+  padding-bottom: 10px;
 }
 
-p2 {font-family: fantasy;
-text-align: right;
-outline-style: double;
-outline-color: rgb(255, 105, 180);
-margin-top: 50px;
-}
-
-p3 {font-family: fantasy;
+#Recipe2 {
+font-family: fantasy;
 text-align: left;
-outline-style: double;
-outline-color: rgb(255, 105, 180);
+outline-color: white;
 margin-top: 50px;
+padding-bottom: 10px;
+background-color: orange;)
 }
 
+#Recipe3 {
+font-family: fantasy;
+text-align: left;
+outline-color: rgb(255, 105, 180);
+margin-top: 50px;
+padding-top: 10px;
+background-color: rgb(255, 105, 180)
+}
+
+//*
 .text {font-family: fantasy; }
 
 .container1 {position: relative; width: 50%;

@@ -1,32 +1,37 @@
 
-body {
+#Joanna {
    height: 100px;
   margin:0;
   text-align: center;
-  font-family: 'Lemon';
+  font-family: fantasy;
+  color: white;
 }
 
 
  .header {
-   font-family: 'Lemon';
+   font-family: Fantasy;
    padding: 40px;
   text-align: center;
   background: #1abc9c;
-  color: white;
-  font-size: 30px
+  color: rgb(0, 0,255);
+  font-size: 30px;
+ background-image: url("../images/world-magic.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
 }
 
 header.p {
   font-size: 15px;
 }
 
-.topnav {
+#myTopnav {
   background-color: #FF1ABC;
   overflow: hidden;
 }
 
 .topnav a {
-  font-family: 'lemon';
+  font-family: fantasy;
   display: block;
   padding: 20px 35px;
   display: inline-block;
@@ -40,13 +45,7 @@ header.p {
   background-color: #FF1ABC;
   color: white;
 }
-
-/* Add an active class to highlight the current page */
-.active {
-  background-color: #FF1ABC;
-  color: white;
-}
-
+//*
 .topnav .icon {
   display: none;
   @media screen and (max-width: 600px) {
@@ -58,6 +57,12 @@ header.p {
   }
 }
 
+.active {
+  background-color: #FF1ABC;
+  color: white;
+}
+
+
   @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
@@ -67,7 +72,7 @@ header.p {
     }
     .topnav.responsive a {
       float: none;
-
+*//
 		.bg {
 		height:500px;
 		background-image:url("../images/world-magic.jpg");
@@ -76,10 +81,87 @@ header.p {
 		background-size: cover;
 		}
 
-* {
+#Terry {
+  padding-top: 10px;
+}
+
+#container1 {
+  position: relative;
+  width: 120%;
+  float: left;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #ff944d;
+  overflow: hidden;
+  width: 50%;
+  height: 0;
+  transition: .5s ease;
+}
+
+#container1:hover .overlay
+  {
+  bottom: 0;
+  height: 100%;
+}
+
+
+#container2 {
+  position: relative;
+  width: 120%;
+  //*float: right;*//
+}
+
+.overlay2 {
+position: absolute;
+bottom: 100%
+left:0;
+right: 0;
+background: #ff944d;
+overflow: hidden;
+width: 50%;
+height: 0;
+transition: .5s ease;
+}
+
+#container2:hover .overlay2 {
+ bottom: 0;
+ height: 100%;
+}
+
+#container3 {
+  position: relative;
+  width: 120%;
+}
+
+.overlay3 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #ff944d;
+  overflow: hidden;
+  width: 50%;
+  height: 0;
+  transition: .5s ease;
+}
+
+
+#container3:hover .overlay3 {
+  bottom: 0;
+  height: 100%;
+}
+
+
+#Izzie {
 	font-family: fantasy;
   font-size: 105%;
   color: white;
+  padding-top: 10px;
 }
 
 .btn-info {
@@ -119,6 +201,99 @@ header.p {
       border-width: thick;
     }
 
+
+#Merve {
+   padding-top: 10px;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #FF1ABC;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+}
+
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+
+		.bg {
+		height:500px;
+		background-image:url("../images/world-magic.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		}
+
+//*
+#Izzie {
+	font-family: fantasy;
+  font-size: 105%;
+  color: white;
+}*//
+
+//*.btn-info {
+  color: white;
+  font-size: 125%;
+  background-color: transparent;
+  border: transparent;
+  position: relative;
+  left: 20px;
+}
+
+#Thai {
+    background-color: rgb(255, 105, 180);
+    padding: 25px 50px 50px 100px;
+    text-align: left;
+    border-style: solid;
+    border-color: rgb(173,216,230);
+    border-width: thick;
+  }
+
+
+#Italian {
+    background-color: rgb(255,150,90);
+    padding: 25px 50px 50px 100px;
+    text-align: left;
+    border-style: solid;
+    border-color: rgb(173,216,230);
+    border-width: thick;
+}
+
+#Moroccan {
+      background-color: rgb(255, 105, 180);
+      padding: 25px 50px 50px 100px;
+      text-align: left;
+      border-style: solid;
+      border-color: rgb(173,216,230);
+      border-width: thick;
+    }
+
+    .btn-info {
+      color: white;
+      font-size: 125%;
+      background-color: transparent;
+      border: transparent;
+      position: relative;
+      left: 20px;
+    }
+*//
 		.container1 {position: relative; width: 50%;
 		}
 
